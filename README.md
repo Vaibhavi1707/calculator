@@ -13,4 +13,4 @@ The project uses the following stack:
 - Version Control: GitHub
 - CI: Jenkins
 
-Pipeline is read from source code.
+Pipeline is read from source code [Jenkinsfile].
