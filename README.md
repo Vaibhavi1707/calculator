@@ -14,3 +14,5 @@ The project uses the following stack:
 - CI: Jenkins
 
 Pipeline is read from source code [Jenkinsfile].
+
+This repository is webhooked to jenkins.
