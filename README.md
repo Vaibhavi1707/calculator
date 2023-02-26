@@ -1,4 +1,4 @@
-# calculator
+# Calculator
 
 A minimal scientific calculator. The following functions have been implemented:
 - Finding Square root
@@ -6,3 +6,9 @@ A minimal scientific calculator. The following functions have been implemented:
 To be implemented:
 - Factorial
 - Power function
+
+The project uses the following stack: 
+- Source Code: Java
+- Build Tool: Maven
+- Version Control: GitHub
+- CI: Jenkins
