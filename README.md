@@ -26,4 +26,4 @@ Pipeline is read from source code [Jenkinsfile].
 
 - Changed URL in the webhook.
 
-- Changed Jenkins config
+- Changed Jenkins config.
