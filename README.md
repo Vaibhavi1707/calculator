@@ -12,3 +12,5 @@ The project uses the following stack:
 - Build Tool: Maven
 - Version Control: GitHub
 - CI: Jenkins
+
+Pipeline is read from source code
