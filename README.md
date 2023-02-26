@@ -20,5 +20,8 @@ The project uses the following stack:
 Pipeline is read from source code [Jenkinsfile].
 
 ## Github Webhooks
-This repository is webhooked to jenkins. The webhooks attached now work.
-Hook logger added.
+- This repository is webhooked to jenkins. The webhooks attached now work.
+
+- Hook logger added.
+
+- Changed URL in the webhook
