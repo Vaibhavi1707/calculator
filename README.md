@@ -21,3 +21,4 @@ Pipeline is read from source code [Jenkinsfile].
 
 ## Github Webhooks
 This repository is webhooked to jenkins. The webhooks attached now work.
+Hook logger added.
