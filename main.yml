@@ -7,8 +7,5 @@
       copy:
         src: ./target/calculator.jar
         dest: ~/
-    - name: Pull image
-      docker_image: cookiepie7879/calculator
-      source: pull
    
 
