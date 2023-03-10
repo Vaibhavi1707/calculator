@@ -1,0 +1,2 @@
+[localmachine]
+172.16.145.79 ansible_user=ec2-user

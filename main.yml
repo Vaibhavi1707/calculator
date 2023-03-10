@@ -1,0 +1,14 @@
+---
+- name: Deploying jar
+  hosts: localmachine
+  remote_user: ec2_user
+  tasks:
+    - name: Copy jar to home directory
+      copy:
+        src: ./target/calculator.jar
+        dest: ~/
+    - name: Pull image
+      docker_image: cookiepie7879/calculator
+      source: pull
+   
+
