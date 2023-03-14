@@ -1,11 +1,11 @@
 ---
 - name: Deploying jar
   hosts: localmachine
-  remote_user: ec2_user
+  remote_user: ansible
   tasks:
     - name: Copy jar to home directory
       copy:
-        src: ./target/calculator.jar
-        dest: ~/
+        src: /target/calculator.jar
+        dest: /
    
 
