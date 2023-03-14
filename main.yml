@@ -13,8 +13,8 @@
         name: docker
         state: started
 
-          #- name: Pull image
-      # shell: docker pull cookiepie7879/calculator
+    - name: Pull image
+      shell: docker pull cookiepie7879/calculator
         #- name: Running container
       #shell: docker run -ti -d cookiepie7879/calculator 
    
