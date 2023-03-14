@@ -1,7 +1,7 @@
 ---
 - name: Pull docker image of Calculator
   hosts: localmachine
-  remote_user: ansible
+  remote_user: ansible_user
   tasks:
     - name: Pull image
       docker_image:
