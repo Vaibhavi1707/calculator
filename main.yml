@@ -14,7 +14,7 @@
         state: started
 
     - name: Pull image
-      shell: echo ansible | sudo docker pull cookiepie7879/calculator && halt
+      shell: echo ansible | sudo -S docker pull cookiepie7879/calculator && halt
     
     - name: Running container
       shell: docker run -it -d cookiepie7879/calculator 
