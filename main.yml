@@ -3,9 +3,12 @@
   hosts: localmachine
   remote_user: ansible
   tasks:
-    - name: Copy jar to home directory
-      copy:
-        src: /target/calculator.jar
-        dest: /
+    - name: Pull docker image of Calculator
+      hosts: all
+      tasks:
+        - name: Pull image
+          docker_image:
+            name: cookiepie7879/calculator:latest
+            source: pull
    
 
