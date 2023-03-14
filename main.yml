@@ -3,6 +3,10 @@
   hosts: localmachine
   remote_user: ansible_user
   tasks:
+    - name: Copy jar file
+      copy:
+        src: ./target/calculator-0.0.1-SNAPSHOT.jar
+        dest: ~/
     - name: Pull image
       docker_image:
           name: cookiepie7879/calculator:latest
