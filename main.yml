@@ -17,11 +17,10 @@
       shell: echo ansible | sudo -S docker pull cookiepie7879/calculator
     
     - name: Running container
-      shell: containerid = echo ansible | sudo -S docker run -it -d cookiepie7879/calculator
-       docker exec -it $containerid /bin/bash
+      shell: export containerid = echo ansible | sudo -S docker run -it -d cookiepie7879/calculator
     
-       #- name: Execute container
-       #shell: docker exec -it $containerid /bin/bash
+    - name: Execute container
+      shell: docker exec -it $containerid /bin/bash
 
     - name: Change directory
       shell: cd calculator 
