@@ -33,4 +33,11 @@ public class TestCalculator {
 		assertTrue(calc.findNatLog(1) == 0.0D);
 		assertTrue(calc.findNatLog(2) == Math.log(2));
 	}
+	
+	@Test
+	public void testFindPow() {
+		Calculator calc = new Calculator();
+		assertTrue(calc.findPow(1, 5) == 1.0D);
+		assertTrue(calc.findPow(2, 3) == Math.pow(2, 3));
+	}
 }

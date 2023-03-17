@@ -25,6 +25,9 @@ public class Calculator {
 		return Math.log(x);
 	}
 	
+	public double findPow(double x, double y) {
+		return Math.pow(x, y);
+	}
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
@@ -66,6 +69,17 @@ public class Calculator {
 					double x = sc.nextDouble();
 					logger.info("[INFO] Finding natural log of - " + x);
 					System.out.println("The natural log (log to the base e) of the number is " + Double.toString(calc.findNatLog(x)));
+				}
+				break;
+				
+				case 4:
+				{
+					System.out.println("Enter base");
+					double x = sc.nextDouble();
+					System.out.println("Enter exponent");
+					double y = sc.nextDouble();
+					logger.info("[INFO] Finding " + x + " raised to " + y);
+					System.out.println("The factorial of the number is " + Double.toString(calc.findPow(x, y)));
 				}
 			}
 			
