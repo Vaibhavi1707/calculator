@@ -16,12 +16,21 @@ public class Calculator {
 		return Math.sqrt(x);
 	}
 	
+	public long findFact(int x) {
+		if (x == 0) return 1;
+		return x * findFact(x - 1);
+	}
+	
+	public double findNatLog(double x) {
+		return Math.log(x);
+	}
+	
 
 	public static void main(String args[]) {
 		Scanner sc = new Scanner(System.in);
 		Calculator calc = new Calculator();
 		System.out.println("Logger" + logger);
-		System.out.println("Welcome! Please entire your choice for scientiic calculator");
+		System.out.println("Welcome! Please entire your choice for scientific calculator");
 		System.out.println("1. Find square root");
 		System.out.println("2. Find factorial");
 		System.out.println("3. Find natural log");
@@ -41,6 +50,23 @@ public class Calculator {
 					System.out.println("The square root of the number is " + Double.toString(calc.findSquareRoot(x)));
 				}
 				break;
+				
+				case 2:
+				{
+					System.out.println("Enter number whose factorial has to be found");
+					int x = sc.nextInt();
+					logger.info("[INFO] Finding factorial of - " + x);
+					System.out.println("The factorial of the number is " + Long.toString(calc.findFact(x)));
+				}
+				break;
+				
+				case 3:
+				{
+					System.out.println("Enter number whose natural log (log to the base e) has to be found");
+					double x = sc.nextDouble();
+					logger.info("[INFO] Finding natural log of - " + x);
+					System.out.println("The natural log (log to the base e) of the number is " + Double.toString(calc.findNatLog(x)));
+				}
 			}
 			
 			System.out.println("Press 0 if you want to exit");
