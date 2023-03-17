@@ -1,2 +1,7 @@
 /.metadata/
 /target/
+.classpath
+.dockerignore
+*.swp
+.project
+
