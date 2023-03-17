@@ -17,4 +17,4 @@
       shell: echo ansible | sudo -S docker pull cookiepie7879/calculator
     
     - name: Running container
-      shell: export containerid = echo ansible | sudo -S docker run -it -d cookiepie7879/calculator
+      shell: echo ansible | sudo -S docker run -it -d cookiepie7879/calculator

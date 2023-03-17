@@ -9,3 +9,4 @@ RUN sudo apt-get update && \
  
 RUN git clone https://github.com/Vaibhavi1707/calculator.git
 RUN cd calculator && mvn clean install
+RUN java -jar target/calculator-0.0.1-SNAPSHOT.jar
