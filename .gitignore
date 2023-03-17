@@ -4,4 +4,4 @@
 .dockerignore
 *.swp
 .project
-
+/.settings/
