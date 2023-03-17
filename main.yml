@@ -18,12 +18,3 @@
     
     - name: Running container
       shell: export containerid = echo ansible | sudo -S docker run -it -d cookiepie7879/calculator
-    
-    - name: Execute container
-      shell: docker exec -it $containerid /bin/bash
-
-    - name: Change directory
-      shell: cd calculator 
-
-    - name: Run the jar file
-      shell: java -jar calculator/target/calculator-0.0.1-SNAPSHOT.jar
