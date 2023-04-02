@@ -18,3 +18,5 @@ The project uses the following stack:
 
 ## Pipeline Read from
 Pipeline is read from Jenkins. [Directly from the settings]
+
+README update test. 
