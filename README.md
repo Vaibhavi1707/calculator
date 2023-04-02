@@ -17,4 +17,4 @@ The project uses the following stack:
 - Configuration Management: Ansible
 
 ## Pipeline Read from
-Pipeline is read from Jenkins.
+Pipeline is read from Jenkins. [Directly from the settings]
