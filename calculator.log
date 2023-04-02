@@ -2,12 +2,9 @@
 2023-03-15 13:11:06.615 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 0.0
 2023-03-15 13:11:13.697 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 4.0
 2023-03-15 13:11:19.871 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 9.0
-2023-03-21 22:47:57.127 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 3.0
-2023-03-21 22:48:05.762 [main] INFO  calculator.Calculator - [INFO] Finding factorial of - 4
-2023-03-21 22:48:11.539 [main] INFO  calculator.Calculator - [INFO] Finding natural log of - 2.0
-2023-03-21 22:48:23.617 [main] INFO  calculator.Calculator - [INFO] Finding 2.0 raised to 4.0
-2023-03-21 22:48:31.257 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 0.0
-2023-03-21 22:48:38.180 [main] INFO  calculator.Calculator - [INFO] Finding factorial of - 7
-2023-03-21 22:48:43.726 [main] INFO  calculator.Calculator - [INFO] Finding natural log of - 1.0
-2023-03-21 22:48:53.639 [main] INFO  calculator.Calculator - [INFO] Finding 34567.0 raised to 0.0
-2023-03-21 22:48:59.719 [main] INFO  calculator.Calculator - [INFO] Exiting
+2023-03-21 19:16:47.695 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 2.0
+2023-03-21 19:16:50.505 [main] INFO  calculator.Calculator - [INFO] Finding square root of - 4.0
+2023-03-21 19:16:53.419 [main] INFO  calculator.Calculator - [INFO] Finding factorial of - 34
+2023-03-21 19:16:58.141 [main] INFO  calculator.Calculator - [INFO] Finding natural log of - 4.0
+2023-03-21 19:17:04.658 [main] INFO  calculator.Calculator - [INFO] Finding 2.0 raised to 4.0
+2023-03-21 19:17:07.899 [main] INFO  calculator.Calculator - [INFO] Exiting
